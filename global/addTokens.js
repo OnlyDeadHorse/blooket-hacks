@@ -37,7 +37,7 @@
                         },
                         body: await encodeValues({
                             name: x.name,
-                            addedTokens: 500,
+                            addedTokens: 2000,
                             addedXp: 300
                         }, e.secret)
                     });
